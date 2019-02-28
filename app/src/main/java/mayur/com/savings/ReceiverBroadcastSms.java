@@ -217,7 +217,7 @@ public class ReceiverBroadcastSms extends BroadcastReceiver {
                             flag = false;
                         }
                     } else {
-                        if (!Character.isDigit(ch) && ch != '.') {
+                        if (!Character.isDigit(ch) && ch != '.' && ch != ',') {
                             Rs_end = i;
                             break;
                         }
@@ -226,9 +226,19 @@ public class ReceiverBroadcastSms extends BroadcastReceiver {
                 Log.d("Save", "Index : "+Integer.toString(Rs_start) + " " + Integer.toString(Rs_end));
 
                 //Updating rupees with the extracted value
-                rupees = Float.parseFloat(message.substring(Rs_start, Rs_end));
+                String new_rs = message.substring(Rs_start, Rs_end);
+                if(new_rs.contains(",")){
+                    new_rs = new_rs.replace(",","");
+                }
+//                rupees = Float.parseFloat(message.substring(Rs_start, Rs_end));
+                rupees = Float.parseFloat(new_rs);
 
                 Log.d("Save", "Transaction : " + action + " " + Float.toString(rupees));
+            }else{
+                //Setting everything null
+                action = "";
+                rupees = 0.0f;
+                return;
             }
 
         } else {

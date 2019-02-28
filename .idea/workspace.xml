@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="change" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="save" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
@@ -16,7 +16,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06e783fc-e4bd-45de-9766-c39479d75788" name="Default" comment="" />
+    <list default="true" id="06e783fc-e4bd-45de-9766-c39479d75788" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mayur/com/savings/ReceiverBroadcastSms.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mayur/com/savings/ReceiverBroadcastSms.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,23 +48,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mayur/com/savings/MainActivity.java">
+      <file leaf-file-name="ReceiverBroadcastSms.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/mayur/com/savings/ReceiverBroadcastSms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
-              <caret line="137" column="64" selection-start-line="137" selection-start-column="64" selection-end-line="137" selection-end-column="64" />
-              <folding>
-                <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" />
-                <element signature="method#setValue_onClick#0;class#MainActivity#0" />
-                <element signature="method#Transaction_onClick#0;class#MainActivity#0" />
-                <element signature="method#onResume#0;class#MainActivity#0" />
-                <element signature="method#onPause#0;class#MainActivity#0" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="238" column="28" lean-forward="true" selection-start-line="238" selection-start-column="28" selection-end-line="238" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -2343,14 +2349,14 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/mayur/com/savings/Transactions.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mayur/com/savings/userInfo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mayur/com/savings/ReceiverBroadcastSms.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mayur/com/savings/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mayur/com/savings/SetValue.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mayur/com/savings/Setting.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mayur/com/savings/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mayur/com/savings/ReceiverBroadcastSms.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -2361,17 +2367,13 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="Savings" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Savings" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
             <path>
               <item name="Savings" type="1abcf292:AndroidViewProjectNode" />
@@ -2384,17 +2386,11 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="savings" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Savings" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2563,7 +2559,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -2573,13 +2569,13 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.25326797" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Logcat" order="7" sideWeight="0.49924356" visible="true" weight="0.29353234" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="7" sideWeight="0.49924356" visible="true" weight="0.30555555" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30455258" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14674735" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" weight="0.25326797" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -2618,11 +2614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#saveData#0;class#ReceiverBroadcastSms#0" />
-            <element signature="method#dataExtract#0;class#ReceiverBroadcastSms#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2651,11 +2642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="57" lean-forward="true" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#saveData#0;class#ReceiverBroadcastSms#0" />
-            <element signature="method#dataExtract#0;class#ReceiverBroadcastSms#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2670,11 +2656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2839">
           <caret line="196" column="176" selection-start-line="196" selection-start-column="176" selection-end-line="196" selection-end-column="176" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#saveData#0;class#ReceiverBroadcastSms#0" />
-            <element signature="method#dataExtract#0;class#ReceiverBroadcastSms#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2956,13 +2937,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
@@ -2989,25 +2970,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mayur/com/savings/ReceiverBroadcastSms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="113" column="43" selection-start-line="113" selection-start-column="43" selection-end-line="113" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#saveData#0;class#ReceiverBroadcastSms#0" />
-            <element signature="method#dataExtract#0;class#ReceiverBroadcastSms#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mayur/com/savings/SetValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
-          <folding>
-            <element signature="method#onCreate#0;class#SetValue#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3020,8 +2986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mayur/com/savings/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="137" column="64" selection-start-line="137" selection-start-column="64" selection-end-line="137" selection-end-column="64" />
+        <state relative-caret-position="95">
+          <caret line="211" column="4" selection-start-line="211" selection-start-column="4" selection-end-line="211" selection-end-column="4" />
           <folding>
             <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" />
             <element signature="method#setValue_onClick#0;class#MainActivity#0" />
@@ -3029,6 +2995,13 @@
             <element signature="method#onResume#0;class#MainActivity#0" />
             <element signature="method#onPause#0;class#MainActivity#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mayur/com/savings/ReceiverBroadcastSms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="238" column="28" lean-forward="true" selection-start-line="238" selection-start-column="28" selection-end-line="238" selection-end-column="28" />
         </state>
       </provider>
     </entry>
